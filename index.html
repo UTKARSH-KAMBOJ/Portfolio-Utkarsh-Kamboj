@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Utkarsh Kamboj</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------About------------ -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="istockphoto-1402674567-612x612.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a first-semester B.Tect Computer Science student with a strong interest in programming and web development . I have learned C language,HTML,CSS and I am currently learning JavaScript to build interactive web applications.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programing</span><br>C Language</li>
+                            <li><span>Web development</span><br>HTML,CSS,JavaScript</li>
+                            <li><span>Video Editing</span><br>After Effects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>-</span><br>none</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>School</span><br>Scholars public school</li>
+                            <li><span>College</span><br>B.Tect CSE(UPES)</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services--------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Web development</h2>
+                    <p>Based on HTML,CSS</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programmer</h2>
+                    <p>Based on C Language</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Based on After Effects</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images.jpg">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>A responsive e-commerce web application inspired by Amazon ,built using HTML,and CSS,featuring product listings,add-to-cart functionality,and a user-friendly interface.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>A responsive website builded by using HTML,CSS,JavaScript.</p>
+                                                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="flat-calculator-children-education-600nw-2141131775.webp">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Builded by using c language.</p>
+                                                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!-- ------------contact------------ -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ukamboj98@gmail.com</p>
+                    <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+
+                    </div>
+                    <a href="" download class="btn btn2">Download Cv</a>
+                </div>
+                 <div class="contact-left">
+                    <form >
+                        <input type="txt" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright© Utkarsh Kamboj</p>
+        </div>
+      </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+</body>
+</html>
